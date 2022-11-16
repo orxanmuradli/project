@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: teal;
+}
+.todos {
+  width: 600px;
+  max-width: 95%;
+  margin: 20px auto;
+  border: 1px solid orange;
+}
+ header {
+  text-align: center;
+  background-color: orange;
+  color: #fff;
+}
+.add_new input {
+  width: 80%;
+  height: 30px;
+}
+.add_new button {
+  width: 20%;
+  height: 30px;
+}
+ul {
+  padding: 5px;
+}
+ul li {
+  background-color: #fff;
+  margin: 3px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li button {
+  margin-left: 5px;
+} 
